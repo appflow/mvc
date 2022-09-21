@@ -1,0 +1,47 @@
+{
+	"name": "@appsflow/mvc",
+	"version": "0.0.0-alpha.7",
+	"description": "AppFlow MVC",
+	"scripts": {
+		"build": "rollup -c",
+		"watch": "rollup -c -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/appflow/mvc.git"
+	},
+	"keywords": [
+		"appflow"
+	],
+	"author": "Leonid Vinikov <czf.leo123@gmail.com> (https://github.com/iNewLegend)",
+	"license": "MIT",
+	"files": [
+		"dist",
+		"src",
+		"types"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"types": "types/index.d.ts",
+	"dependencies": {
+		"@appsflow/core": "^0.0.0-alpha.1",
+		"hash-it": "^5.0.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.18.10",
+		"@babel/plugin-transform-runtime": "^7.18.10",
+		"@babel/preset-env": "^7.18.10",
+		"@babel/preset-typescript": "^7.18.6",
+		"@babel/runtime": "^7.18.9",
+		"@rollup/plugin-babel": "^5.3.1",
+		"@rollup/plugin-json": "^4.1.0",
+		"@rollup/plugin-node-resolve": "^13.3.0",
+		"@rollup/plugin-replace": "^4.0.0",
+		"@typescript-eslint/eslint-plugin": "^5.32.0",
+		"@typescript-eslint/parser": "^5.32.0",
+		"rollup": "^2.77.2",
+		"rollup-plugin-terser": "^7.0.2",
+		"rollup-plugin-typescript2": "^0.32.1"
+	}
+}
